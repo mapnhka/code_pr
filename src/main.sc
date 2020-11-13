@@ -15,7 +15,7 @@ theme: /
             script:
                 var reply = {
                     "type":"text",
-                    "text": '<speak>Сбербанк <break time="4000ms"/> nnnnnb juu лучший</speak>',
+                    "text": '<speak>Сбербанка <break time="4000ms"/> nnnnnb juu лучший</speak>',
                     "ssml": '<speak>Сбербанк <break time="4000ms"/> самый лучший</speak>'
                 };
                 $response.replies = $response.replies || [];
