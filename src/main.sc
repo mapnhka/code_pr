@@ -4,7 +4,7 @@ theme: /
 
     state: Start
         q!: $regex</start>
-        a: Список команд:\nadd - для добавления данных в корзину\nclear - очистка корзины\npay - создать счет\nstart - оплатить\ncheck - проверить статус платежа\nshow - показать данные в корзине
+        a: Список команд:\nadd - для добавления данных в корзину\nclear - очистка корзины\npay - создать счет\nstart - оплатить\ncheck - проверить статус платежа\nshow - hhhhh данные в корзине
     
     state:
         q!: * запусти *
@@ -15,7 +15,7 @@ theme: /
             script:
                 var reply = {
                     "type":"text",
-                    "text": '<speak>Сбербанк <break time="4000ms"/> самый лучший</speak>',
+                    "text": '<speak>Сбербанк <break time="4000ms"/> nnnnnb juu лучший</speak>',
                     "ssml": '<speak>Сбербанк <break time="4000ms"/> самый лучший</speak>'
                 };
                 $response.replies = $response.replies || [];
